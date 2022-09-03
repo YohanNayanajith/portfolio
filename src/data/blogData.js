@@ -11,9 +11,9 @@ export const blogData = [
         id: 2,
         title: 'Robotic Process Automation'.toUpperCase(),
         description: 'As the topic says it’s a technology about robots. But in professional terms, it is a form of business process automation technology based on metaphorical software robots or digital workers.',
-        date: 'May 05, 2022',
+        date: 'May 22, 2022',
         image: 'https://res.cloudinary.com/midefulness/image/upload/v1662192060/Blog%20Photos/32819-1536x735_m39tzs.jpg',
-        url: 'https://hackzism.blogspot.com/2020/06/check-weather-from-terminal-using-wttrin.html'
+        url: 'https://funforprogramming.com/technology/rpa/'
     },
     {
         id: 3,
