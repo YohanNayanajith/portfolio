@@ -1,23 +1,23 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Marble Hills Middle School',
-        course: 'Higher Secondary Education',
-        startYear: '2007',
-        endYear: '2015'
+        institution: 'University of Colombo School of Computing',
+        course: 'B.Sc (Hons) in Software Engineering (Reading)',
+        startYear: '2020',
+        endYear: 'Present'
     },
     {
         id: 2,
-        institution: 'Somerset School of Science',
-        course: 'Bachelor of Technology',
-        startYear: '2015',
-        endYear: '2019'
+        institution: 'DS Senanayake College - Colombo 07',
+        course: 'GCE Advance Level',
+        startYear: '2018',
+        endYear: '2016'
     },
     {
         id: 3,
-        institution: 'Hawking University, Cambridge',
-        course: 'Master of Technology',
-        startYear: '2019',
-        endYear: 'Present'
+        institution: 'Boys Model School - Malabe',
+        course: 'GCE Ordinary Level',
+        startYear: '2015',
+        endYear: '2005'
     },
 ]
