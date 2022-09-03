@@ -1,6 +1,6 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "My name's Yohan Nayanajith. I'm a undergraduate at University of Colombo School of Computing.",
-    description2: "I am a hardworking and seeking for opportunities to enhance and maintain my technical skills. As a quick learner who easily adapts to new technologies, I am excited to put my web and mobile development skills and knowledge to work as an effective and valuable team member.",
+    description1: "I am Yohan Nayanajith,an undergraduate at the University of Colombo School of Computing.",
+    description2: "I am a hardworking and ambitious person seeking for opportunities to improve and maintain my technical skills. I am excited to put my web and mobile development skills and knowledge to work as an effective and valuable team member as a quick learner who easily adapts to new technologies.",
     image: 2
 }
