@@ -96,7 +96,7 @@
 
 @media screen and (max-width: 600px) {
     .services {
-        padding: 0.5rem;
+        padding: 1rem;
     }
     .services-header h1 {
         font-size: 2.5rem;
