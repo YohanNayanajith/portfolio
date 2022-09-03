@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import "./VolunteerTimeline.css";
+import '../Services/Services.css';
 // import { ReactComponent as LogoIcon } from "../img/intelli.svg";
 // import { ReactComponent as ACM } from '../../assets/svg/logo/acm.png';
 // import { ReactComponent as IEEE_Student } from '../../assets/svg/logo/ieee_student.png';
@@ -42,7 +43,7 @@ function VolunteerTimeline({ reference }) {
       style={{ backgroundColor: theme.primary }}
     >
       <div ref={reference}>
-        <div className="timeline-header">
+        <div className="services-header">
           <h1 style={{ color: theme.secondary }}>Volunteering</h1>
         </div>
         <VerticalTimeline animate={animate}>
