@@ -7,6 +7,7 @@ import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
 import fitbot from '../assets/svg/projects/Personal Account - Dashboard-new.jpg'
+import mindfulness from '../assets/svg/projects/mindfulness.jpg'
 
 
 export const projectsData = [
@@ -34,8 +35,8 @@ export const projectsData = [
         projectDesc: 'A web-based application with an admin panel designed for a company, where the user can buy company-related products online and read articles about the company. The application also allows the user to obtain company services.',
         tags: ['MERN Stack','Stripe','Firebase'],
         code: 'https://github.com/YohanNayanajith/Mindfulness',
-        demo: 'https://github.com/YohanNayanajith/Mindfulness',
-        image: five
+        demo: 'https://6313d49c892a156dc4638100--lucent-duckanoo-c32cfd.netlify.app/',
+        image: mindfulness
     },
     {
         id: 4,
