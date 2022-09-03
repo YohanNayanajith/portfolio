@@ -6,6 +6,7 @@ import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
+import fitbot from '../assets/svg/projects/Personal Account - Dashboard-new.jpg'
 
 
 export const projectsData = [
@@ -25,7 +26,7 @@ export const projectsData = [
         tags: ['HTML', 'CSS', 'Jquery','JAVA EE'],
         code: 'https://github.com/FITBOT-Gym-Management-System/Fitbot',
         demo: 'https://github.com/FITBOT-Gym-Management-System/Fitbot',
-        image: two
+        image: fitbot
     },
     {
         id: 3,
