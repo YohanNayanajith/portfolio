@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+body {
+  background: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.timeline-header h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+.timeline-main-cnt {
+  margin-bottom: 150px;
+}
+
+.title {
+  color: rgb(255, 255, 255);
+  font-size: 3em;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+
+  padding-top: 80px;
+  margin-bottom: 100px;
+}
+.text {
+  color: rgb(255, 255, 255);
+}
+h3 {
+  padding-top: 0.25em;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15);
+  padding: 2em 3em;
+}
+.vertical-timeline-element-title {
+  font-size: 25px;
+  text-align: inherit;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.date {
+  color: white !important;
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+  text-align: justify;
+}
+
+.workButton {
+  background-color: #06d6a0;
+}
+
+.workButton:hover {
+  background-color: #0ac593;
+}
+
+.schoolButton {
+  background-color: #f9c74f;
+}
+
+.schoolButton:hover {
+  background-color: #f3bc3c;
+}
+
+.volunteer-container {
+    padding: 60;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: white !important;
+    margin-top: 1.5em;
+  }
+}
+
