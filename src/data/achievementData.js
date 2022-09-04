@@ -7,7 +7,7 @@ export const achievementData = {
             details : 'Offered by Coursera',
             date : 'Ongoing',
             field : 'Cloud',
-            image : 'https://res.cloudinary.com/midefulness/image/upload/v1662212250/Blog%20Photos/aws-logo-icon-PNG-Transparent-Background_svde9m.avif'
+            image : 'https://res.cloudinary.com/midefulness/image/upload/v1662269346/Blog%20Photos/1_b_al7C5p26tbZG4sy-CWqw_qz7lvo.png'
         },
         {
             id : 2,
