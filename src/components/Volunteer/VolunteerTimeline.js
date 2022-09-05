@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import "./VolunteerTimeline.css";
-import '../Services/Services.css';
+import "../Services/Services.css";
 // import { ReactComponent as LogoIcon } from "../img/intelli.svg";
 // import { ReactComponent as ACM } from '../../assets/svg/logo/acm.png';
 // import { ReactComponent as IEEE_Student } from '../../assets/svg/logo/ieee_student.png';
@@ -70,20 +70,34 @@ function VolunteerTimeline({ reference }) {
                 <ul
                   style={{
                     color: theme.tertiary80,
-                    padding: 20,
+                    padding: element.position1 ? 20 : 0,
                     fontWeight: "bold",
                   }}
                 >
-                  <li style={{ marginBottom: 10 }}>{element.position1}</li>
+                  {element.position1 ? (
+                    <li style={{ marginBottom: 10 }}>{element.position1}</li>
+                  ) : (
+                    <></>
+                  )}
                   {element.position2 ? <li>{element.position2}</li> : <></>}
                 </ul>
-                <h4>Events</h4>
-                <ul style={{ color: theme.tertiary50, padding: 20 }}>
-                  <li style={{ marginBottom: 20 }}>{element.event1}</li>
+                {element.event1 ? <h4>Events</h4> : <></>}
+                <ul
+                  style={{
+                    color: theme.tertiary50,
+                    padding: element.event1 ? 20 : 0,
+                  }}
+                >
+                  {element.event1 ? (
+                    <li style={{ marginBottom: 20 }}>{element.event1}</li>
+                  ) : (
+                    <></>
+                  )}
+
                   {element.event2 ? <li>{element.event2}</li> : <></>}
                 </ul>
                 <p>{element.description}</p>
-                {element.description1 ? <p>{element.description1}</p> : <></> }
+                {element.description1 ? <p>{element.description1}</p> : <></>}
               </VerticalTimelineElement>
             );
           })}
