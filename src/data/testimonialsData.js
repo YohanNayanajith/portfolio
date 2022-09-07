@@ -17,7 +17,7 @@ export const testimonialsData = [
         id: 1,
         name: 'University of Colombo School of Computing',
         title: 'TOC 22 - Cricket Tournament',
-        text: "TOC22 cricket tournament organized by UCSC student union. I represented eleven ducks team and secured championship.",
+        text: 'There was a cricket tournament named TOC22 which is organized by student union of UCSC . I was a team member of "eleven ducks" team, one of the teams of TOC22 and gladly secured championship.',
         image: cricket
     },
     {
