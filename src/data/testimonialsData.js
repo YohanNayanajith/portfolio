@@ -24,7 +24,7 @@ export const testimonialsData = [
         id: 2,
         name: 'Boys Model School, Malabe',
         title: 'Senior Prefect',
-        text: "I am one of the senior prefects in Boys Model School Malabe and this position was held for 3 consecutive years 2013,2014, and 2015.",
+        text: "I was one of the senior prefects in Boys Model School Malabe and held this position for 3 consecutive years. (2013,2014, and 2015)",
         image: boy2
     },
     {
@@ -38,21 +38,21 @@ export const testimonialsData = [
         id: 4,
         name: 'Blue Gold & Blue Volleyball Tournament | 2014',
         title: 'Under-17 | Runner-Up',
-        text: "Blue Gold & Blue Volleyball tournament organized by Royal College. I represented Malabe Boys Model School volleyball team and secured Runner-Up in the under-17 category at the western province volleyball tournament 2014.",
+        text: "Blue Gold & Blue Volleyball tournament organized by Royal College. I had represented Malabe Boys Model School volleyball team and secured Runner-Up in the under-17 category at the western province volleyball tournament 2014.",
         image: volleyball
     },
     {
         id: 5,
         name: 'Inter - School Sport Meet | 2014',
         title: 'Under-17 | Champion',
-        text: "In Inter-School Sports Meet, I represented Malabe Boys Model School volleyball team and secured Champion in the under-17 category at the kaduwela education division volleyball tournament 2014.",
+        text: "In Inter-School Sports Meet, I had represented Malabe Boys Model School volleyball team and secured Champion in the under-17 category at the kaduwela education division volleyball tournament 2014.",
         image: volleyball
     },
     {
         id: 6,
         name: 'Inter - School Sport Meet | 2013',
         title: 'Under-15 | Runner-Up',
-        text: "In Inter-School Sports Meet, I represented Malabe Boys Model School volleyball team and secured Runner-Up in the under-17 category at the kaduwela education division volleyball tournament 2013.",
+        text: "In Inter-School Sports Meet, I had represented Malabe Boys Model School volleyball team and secured Runner-Up in the under-17 category at the kaduwela education division volleyball tournament 2013.",
         image: volleyball
     },
 ]
