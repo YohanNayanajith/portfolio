@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet'
 import { Navbar, Footer, Landing, About, Skills, Testimonials, Blog, Education, Experience, Contacts, Projects, Services, Achievement } from '../../components'
 import VolunteerTimeline from '../../components/Volunteer/VolunteerTimeline'
 import { headerData } from '../../data/headerData'
+import FooterWithThree from '../../components/Footer/FooterWithThree'
 
 function Main() {
     return (
@@ -29,7 +30,8 @@ function Main() {
             <Testimonials />
             
             <Contacts />
-            <Footer />
+            {/* <Footer /> */}
+            <FooterWithThree />
         </div>
     )
 }
