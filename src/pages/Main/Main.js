@@ -20,11 +20,15 @@ function Main() {
             
             <Projects />
             <Education />
-            {/* <Experience /> */}
+
+            <Experience />
+
             {/* cetification */}
             <Achievement /> 
             <VolunteerTimeline />
-            {/* <Services /> */}
+
+            <Services />
+
             <Blog />
             <Testimonials />
             
