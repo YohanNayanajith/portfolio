@@ -94,7 +94,13 @@ function VolunteerTimeline({ reference }) {
                     <></>
                   )}
 
-                  {element.event2 ? <li>{element.event2}</li> : <></>}
+                  {element.event2 ? (
+                    <li style={{ marginBottom: 20 }}>{element.event2}</li>
+                  ) : (
+                    <></>
+                  )}
+
+                  {element.event3 ? <li>{element.event3}</li> : <></>}
                 </ul>
                 <p>{element.description}</p>
                 {element.description1 ? <p>{element.description1}</p> : <></>}
