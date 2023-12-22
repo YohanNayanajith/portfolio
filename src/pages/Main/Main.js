@@ -27,7 +27,7 @@ function Main() {
             <Achievement /> 
             <VolunteerTimeline />
 
-            <Services />
+            {/* <Services /> */}
 
             <Blog />
             <Testimonials />
