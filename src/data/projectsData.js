@@ -13,6 +13,24 @@ import mindfulness from '../assets/svg/projects/mindfulness.jpg'
 export const projectsData = [
     {
         id: 1,
+        projectName: 'SkillGate',
+        projectDesc: 'Creating candidate and company personas from CVs and job descriptions, respectively. The system then maps these personas to suggest suitable candidates, providing evidence for each recommendation.',
+        tags: ['Next.js', 'FastAPI', 'BERT', 'ML', 'Node.js'],
+        code: 'https://github.com/SkillGate',
+        demo: 'https://skillgate.github.io/Web/',
+        image: 'https://res.cloudinary.com/midefulness/image/upload/v1703282461/skillgate-landing_yrnvy7.png'
+    },
+    {
+        id: 2,
+        projectName: 'Pelican Holdings',
+        projectDesc: 'The Pelican Holdings Project is an external initiative designed to provide a comprehensive overview of the company\'s details.',
+        tags: ['Next.js', 'Tailwind CSS'],
+        code: 'https://github.com/Pelican-Holdings',
+        demo: 'https://pelican-holdings.github.io/Web/',
+        image: 'https://res.cloudinary.com/midefulness/image/upload/v1703283743/Pelican_Holdings-landing_ngsjjk.png'
+    },
+    {
+        id: 3,
         projectName: 'Optima',
         projectDesc: 'Optima is a solution for a construction company\'s effective procurement and inventory management. Optima consists of a web and a mobile application',
         tags: ['React', 'React Native', 'SpringBoot'],
@@ -21,7 +39,7 @@ export const projectsData = [
         image: one
     },
     {
-        id: 2,
+        id: 4,
         projectName: 'Fitbot',
         projectDesc: 'Fitbot is a web application that works as a platform through which the members, instructors, maintainers, and the administration can connect and work from fitness centers and from home which is developed without any frameworks.',
         tags: ['HTML', 'CSS', 'Jquery','JAVA EE'],
@@ -30,7 +48,7 @@ export const projectsData = [
         image: fitbot
     },
     {
-        id: 3,
+        id: 5,
         projectName: 'Mindfulness Portal & Admin Panel',
         projectDesc: 'A web-based application with an admin panel designed for a company, where the user can buy company-related products online and read articles about the company. The application also allows the user to obtain company services.',
         tags: ['MERN Stack','Stripe','Firebase'],
@@ -39,7 +57,7 @@ export const projectsData = [
         image: mindfulness
     },
     {
-        id: 4,
+        id: 6,
         projectName: 'Bantu mobile app & Admin panel',
         projectDesc: 'A mobile application with a freelancing service where users can publish jobs that need to be completed and freelancers can volunteer to complete the tasks.',
         tags: ['MERN Stack','React Native','Stripe','Firebase'],
@@ -48,7 +66,7 @@ export const projectsData = [
         image: four
     },
     {
-        id: 5,
+        id: 7,
         projectName: 'Doggies',
         projectDesc: 'Doggies is a mobile application in which users can adopt a dog.',
         tags: ['React Native', 'MockAPI'],
@@ -57,7 +75,7 @@ export const projectsData = [
         image: three
     },
     {
-        id: 6,
+        id: 8,
         projectName: 'Image Processing Project',
         projectDesc: 'Matching two different photos using image processing',
         tags: ['Python','OpenCV','Numpy'],
@@ -66,7 +84,7 @@ export const projectsData = [
         image: six
     },
     {
-        id: 7,
+        id: 9,
         projectName: 'Road Coating',
         projectDesc: 'A website for Road Coating International(PVT)Ltd',
         tags: ['WordPress'],
@@ -75,7 +93,7 @@ export const projectsData = [
         image: seven
     },
     {
-        id: 8,
+        id: 10,
         projectName: 'Pelican Holdings',
         projectDesc: 'A website for Pelican Holdings(PVT)Ltd',
         tags: ['WordPress'],
