@@ -13,6 +13,23 @@ let timelineData = [
     },
     {
       id: 2,
+      title: "The Computer Society of Sri Lanka (CSSL)",
+      position1: "Member | 2022 - 2023",
+      event1:"40th National Information Technology Conference | 2022",
+      event2:"41st National Information Technology Conference | 2023",
+    //   description:"The proposal submissions for the initial phase will be opened. The initial round will be an ideathon. The problem should be from one of the given domains, or if contestants choose a different domain, they can use the wildcard option. They must submit a proposal describing the machine learning solution to the problem within the selected area.",
+      date: "2020 - Present",
+    },
+    {
+      id: 3,
+      title: "University of Colombo School of Computing",
+      position1: "I am a Researcher Volunteer",
+      event1:"The 23rd International Conference on Advances in ICT for Emerging Regions | ICTer 2023",
+      description:"ICTer is the successor to the seminal International Information Technology Conference (IITC) held in Sri Lanka since 1998. The ICTer conference is a unique opportunity for researchers and practitioners alike to present research results and practical deployment in the Computer Science and Information Technology domains. Selected papers were invited for publication in the special issue of the ICTer Journal (journal.icter.org). All presented full papers will be submitted to IEEE Xplore digital library.",
+      date: "2020 - Present",
+    },
+    {
+      id: 4,
       title: "IEEE Student Branch Chapter of UCSC",
       position1: "Member | 2020 - 2023",
       event1:"RevolUX | 2021 - OCVP Programming",
@@ -21,7 +38,7 @@ let timelineData = [
       date: "2020 - Present",
     },
     {
-      id: 3,
+      id: 5,
       title: "ISACA",
       position1: "Member | 2020 - 2023",
       event1:"ICS | 2020 - Web team member",
@@ -29,7 +46,7 @@ let timelineData = [
       date: "2020 - Present",
     },
     {
-      id: 4,
+      id: 6,
       title: "ACM Student Chapter of UCSC",
       position1: "Member | 2020 - 2023",
       event1:"Postman API Fest | 2022",
@@ -37,7 +54,7 @@ let timelineData = [
       date: "2020 - Present",
     },
     {
-      id: 5,
+      id: 7,
       title: "Computer Science Society of University of Colombo",
       position1: "Member | 2020 - 2023",
       event1:"Sense and Science | 2022",
@@ -45,7 +62,7 @@ let timelineData = [
       date: "2020 - Present",
     },
     {
-      id: 6,
+      id: 8,
       title: '"ගණිතයට අතහිත" සමාජ මෙහෙවර',
       // position1: "Member | 2020 - Present",
       // event1:"Sense and Science | Ongoing",

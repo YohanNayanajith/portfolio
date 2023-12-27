@@ -32,7 +32,8 @@ function Contacts() {
   const [open, setOpen] = useState(false);
 
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("yohannayanajith40@gmail.com");
+  // const [email, setEmail] = useState("yohannayanajith40@gmail.com");
+  const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
   const [success, setSuccess] = useState(false);
@@ -154,7 +155,7 @@ function Contacts() {
 
         emailjs
           .send(
-            "service_m6aluv6",
+            "service_kiwn5pj",
             "template_7xfulyb",
             responseData,
             "Q_-lY5fRb6PO6d6BG"
@@ -220,7 +221,7 @@ function Contacts() {
                   type="email"
                   name="Email"
                   className={`form-input ${classes.input}`}
-                  disabled
+                  // disabled
                 />
               </div>
               <div className="input-container">
