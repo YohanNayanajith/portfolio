@@ -156,9 +156,9 @@ function Contacts() {
         emailjs
           .send(
             "service_kiwn5pj",
-            "template_7xfulyb",
+            "template_uy3h8r2",
             responseData,
-            "Q_-lY5fRb6PO6d6BG"
+            "4oC_IcfSJ2Pq29GDz"
           )
           .then(
             (result) => {
