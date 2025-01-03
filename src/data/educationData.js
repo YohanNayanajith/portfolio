@@ -2,10 +2,10 @@ export const educationData = [
     {
         id: 1,
         institution: 'University of Colombo School of Computing',
-        course: 'B.Sc (Hons) in Software Engineering (Reading)',
-        score: 'Current GPA - 3.63',
+        course: 'B.Sc (Hons) in Software Engineering',
+        score: '3.63',
         startYear: '2020',
-        endYear: 'Present'
+        endYear: '2024'
     },
     {
         id: 2,
